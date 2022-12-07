@@ -1,17 +1,40 @@
 package step1;
 
 import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Scanner;
+import java.util.*;
+
 
 public class Main {
 
     public static void main(String[] args) {
 
+        baek2480();
 
-        baek3003();
+    }
 
+    private static void baek2480() {
+        Scanner sc = new Scanner(System.in);
 
+        int x = sc.nextInt();
+        int y = sc.nextInt();
+        int z = sc.nextInt();
+
+        int[] array = {x,y,z};
+        Arrays.sort(array);
+
+        if(array[0]==array[1]) {
+            if(array[0]==array[2]) {
+                System.out.println(10000+1000*array[0]);
+            } else {
+                System.out.println(1000+100*array[0]);
+            }
+        } else {
+            if(array[1]==array[2]) {
+                System.out.println(1000+100*array[1]);
+            } else {
+                System.out.println(array[2]*100);
+            }
+        }
     }
 
     /**
