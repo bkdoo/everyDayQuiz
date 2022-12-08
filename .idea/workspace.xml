@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="702c74ce-42c9-4587-b3fa-7e002ce6f859" name="Changes" comment="2022 1206 백준 3003 문제&#10;String을 받아와 int형으로 변환 후&#10;간단한 사칙연산 후에 String으로 재 변환 후 리턴&#10;Java Stream 기능 복습 하게 됨">
+    <list default="true" id="702c74ce-42c9-4587-b3fa-7e002ce6f859" name="Changes" comment="2022 1207 백준 2480 문제&#10;Array sort기능을 이용하여 if문 경우의 수를 줄임">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/step1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/step1/Main.java" afterDir="false" />
     </list>
@@ -72,7 +72,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1670332172825</updated>
-      <workItem from="1670332174456" duration="6602000" />
+      <workItem from="1670332174456" duration="9570000" />
     </task>
     <task id="LOCAL-00001" summary="매일매일 알고리즘 문제풀기 시작~">
       <created>1670332226165</created>
@@ -95,7 +95,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670336847797</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="2022 1207 백준 2480 문제&#10;Array sort기능을 이용하여 if문 경우의 수를 줄임">
+      <created>1670424872531</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1670424872531</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -116,6 +123,48 @@
     <MESSAGE value="매일매일 알고리즘 문제풀기 시작~" />
     <MESSAGE value="2022 1206 백준 2588 문제&#10;가벼운 사칙연산 문제이나, 연산기호 간 우선순위를 체크하게 됨" />
     <MESSAGE value="2022 1206 백준 3003 문제&#10;String을 받아와 int형으로 변환 후&#10;간단한 사칙연산 후에 String으로 재 변환 후 리턴&#10;Java Stream 기능 복습 하게 됨" />
-    <option name="LAST_COMMIT_MESSAGE" value="2022 1206 백준 3003 문제&#10;String을 받아와 int형으로 변환 후&#10;간단한 사칙연산 후에 String으로 재 변환 후 리턴&#10;Java Stream 기능 복습 하게 됨" />
+    <MESSAGE value="2022 1207 백준 2480 문제&#10;Array sort기능을 이용하여 if문 경우의 수를 줄임" />
+    <option name="LAST_COMMIT_MESSAGE" value="2022 1207 백준 2480 문제&#10;Array sort기능을 이용하여 if문 경우의 수를 줄임" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/step1/Main.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/step1/Main.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/step1/Main.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/step1/Main.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/step1/Main.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/step1/Main.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/step1/Main.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

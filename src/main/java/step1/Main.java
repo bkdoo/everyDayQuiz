@@ -3,12 +3,26 @@ package step1;
 import java.util.ArrayList;
 import java.util.*;
 
-
 public class Main {
 
     public static void main(String[] args) {
 
-        baek2480();
+        Scanner sc = new Scanner(System.in);
+
+        int n = sc.nextInt();
+        int m = n;
+        int cnt = 0;
+        while(true) {
+            cnt++;
+            int a = m/10;
+            int b = m%10;
+            m = a+b;
+            int c = b*10+m%10;
+            if(c==n) break;
+            m = c;
+        }
+
+        System.out.println(cnt);
 
     }
 
